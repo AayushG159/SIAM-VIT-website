@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
     if (window.matchMedia("(max-width: 930px)").matches) {
         $('#nav ul li:not(:first-child)').hide();
         $('.nav-icon').click(function() {
@@ -38,4 +38,25 @@ $(document).ready(function() {
             $('.desk-ev-content-3').fadeIn();
         });
     }
+}); */
+$(document).ready(function() {
+    if(window.innerWidth >= 930){
+        $('#nav ul li:not(:first-child)').show();
+    }
+    else{
+        $('#nav ul li:not(:first-child)').hide();
+    }
+    $('.nav-icon').click(function() {
+        $('.nav-icon').toggleClass('icon-change');
+        $('#nav ul li:not(:first-child)').slideToggle();
+    });
+    $(window).resize(function() {
+        if (window.innerWidth >= 930) {
+            $('#nav ul li:not(:first-child)').show();
+        }
+        else{
+            $('#nav ul li:not(:first-child)').hide();
+            $('.nav-icon').removeClass('icon-change');
+        }
+    });
 });
