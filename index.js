@@ -40,25 +40,25 @@
     }
 }); */
 $(document).ready(function() {
-    if(window.innerWidth >= 930){
+    if (window.innerWidth >= 930) {
         $('#nav ul li:not(:first-child)').show();
-    }
-    else{
+    } else {
         $('#nav ul li:not(:first-child)').hide();
     }
     $('.nav-icon').click(function() {
         $('.nav-icon').toggleClass('icon-change');
         $('#nav ul li:not(:first-child)').slideToggle();
-    });
-    $('#nav ul li:not(:first-child)').click(function(){
-        $('#nav ul li:not(:first-child)').slideUp();
-        $('.nav-icon').removeClass('icon-change');
+        $('#nav ul li:not(:first-child)').click(function() {
+            if (window.innerWidth < 930) {
+                $('#nav ul li:not(:first-child)').slideUp();
+            }
+            $('.nav-icon').removeClass('icon-change');
+        });
     });
     $(window).resize(function() {
         if (window.innerWidth >= 930) {
             $('#nav ul li:not(:first-child)').show();
-        }
-        else{
+        } else {
             $('#nav ul li:not(:first-child)').hide();
             $('.nav-icon').removeClass('icon-change');
         }
