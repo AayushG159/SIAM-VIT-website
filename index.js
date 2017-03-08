@@ -50,6 +50,10 @@ $(document).ready(function() {
         $('.nav-icon').toggleClass('icon-change');
         $('#nav ul li:not(:first-child)').slideToggle();
     });
+    $('#nav ul li:not(:first-child)').click(function(){
+        $('#nav ul li:not(:first-child)').slideUp();
+        $('.nav-icon').removeClass('icon-change');
+    });
     $(window).resize(function() {
         if (window.innerWidth >= 930) {
             $('#nav ul li:not(:first-child)').show();
