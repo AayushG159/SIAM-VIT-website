@@ -55,17 +55,17 @@ function events_sec() {
         $('.ev-header-1').on('click', function() {
             $('[class^="mob-ev-content-"]').hide();
             $('[class^="desk-ev-content-"]').hide();
-            $('.desk-ev-content-1').show();
+            $('.desk-ev-content-1').fadeIn();
         });
         $('.ev-header-2').on('click', function() {
             $('[class^="mob-ev-content-"]').hide();
             $('[class^="desk-ev-content-"]').hide();
-            $('.desk-ev-content-2').show();
+            $('.desk-ev-content-2').fadeIn();
         });
         $('.ev-header-3').on('click', function() {
             $('[class^="mob-ev-content-"]').hide();
             $('[class^="desk-ev-content-"]').hide();
-            $('.desk-ev-content-3').show();
+            $('.desk-ev-content-3').fadeIn();
         });
     }
 }
