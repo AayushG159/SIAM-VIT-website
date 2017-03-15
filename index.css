@@ -172,7 +172,7 @@ html {
 
 .sec-header {
     font-size: 30px;
-    padding: 25px;
+    padding: 35px;
     text-align: center;
 }
 
@@ -262,15 +262,18 @@ html {
 #footer p a:hover {
     color: #DC0024;
 }
+
 .fb {
     padding-top: 10px;
     font-size: 30px;
 }
-.fb a{
+
+.fb a {
     color: white;
     transition: 0.5s ease-out;
 }
-.fb a:hover{
+
+.fb a:hover {
     color: #3b5998;
 }
 
@@ -342,6 +345,9 @@ html {
         padding-top: 5%;
         font-weight: lighter;
         font-size: 20px;
+    }
+    .sec-header {
+        padding: 50px;
     }
     /*   .team-gallery {
         padding-top: 20px;
@@ -442,7 +448,7 @@ html {
         display: inline-block;
     }*/
     .nav-logo img {
-        width: 225px;
+        width: 18%;
         height: auto;
     }
     #nav {
@@ -497,7 +503,7 @@ html {
         font-size: 30px;
     }
     .sec-header {
-        padding-top: 50px;
+        padding-top: 70px;
         font-size: 50px;
     }
     #about .content {
