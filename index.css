@@ -155,9 +155,18 @@ html {
     top: 50%;
     left: 50%;
     width: 80%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
+    transform: translate(-50%, -30%);
     color: white;
+}
+
+.hero-heading h1 {
+    font-weight: bold;
+}
+
+.hero-heading p {
+    padding-top: 15%;
+    font-style: italic;
+    font-size: 20px;
 }
 
 .section {
@@ -316,6 +325,14 @@ html {
     .t-col-12 {
         width: 100%;
     }
+    .hero-heading h1 {
+        font-size: 40px;
+    }
+    .hero-heading p {
+        padding-top: 5%;
+        font-weight: lighter;
+        font-size: 20px;
+    }
     /*   .team-gallery {
         padding-top: 20px;
         text-align: center;
@@ -462,6 +479,14 @@ html {
     }
     #nav ul li a:hover:after {
         width: 100%;
+    }
+    .hero-heading h1 {
+        font-size: 50px;
+    }
+    .hero-heading p {
+        padding-top: 5%;
+        font-weight: lighter;
+        font-size: 30px;
     }
     .sec-header {
         padding-top: 50px;
