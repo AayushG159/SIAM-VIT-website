@@ -243,7 +243,12 @@ html {
 }
 
 #footer p {
-    padding: 2px 0;
+    padding: 10px 0;
+}
+
+#footer p:first-child {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #footer p a {
@@ -257,13 +262,16 @@ html {
 #footer p a:hover {
     color: #DC0024;
 }
-
-#footer p:nth-child(2) {
+.fb {
     padding-top: 10px;
+    font-size: 30px;
 }
-
-#footer p:last-child {
-    padding-top: 5px;
+.fb a{
+    color: white;
+    transition: 0.5s ease-out;
+}
+.fb a:hover{
+    color: #3b5998;
 }
 
 @media only screen and (max-width: 930px) {
