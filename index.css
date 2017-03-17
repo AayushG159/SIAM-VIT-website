@@ -33,6 +33,7 @@ html {
     margin: 0;
 }
 
+
 /* For mobile phones: */
 
 [class*="col-"] {
@@ -109,14 +110,20 @@ html {
 }
 
 .hero {
-    background-image: url('images/hero-test.jpg');
+    background-image: linear-gradient(to bottom right, rgba(50, 50, 50, 0.75), rgba(230, 60, 48, 0.75)), url('images/hero2.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+    transition: background-image 0.5s;
 }
+
+
+/*.hero:hover{
+    background-image: linear-gradient(rgba(230,60,48,0.95),rgba(50,50,50,0.9)),url('images/hero.jpg');
+}*/
 
 .hero-heading {
     text-align: center;
@@ -145,7 +152,7 @@ html {
 }
 
 #about {
-    background-color: #242424;
+    background-color: #393939;
 }
 
 .sec-header {
@@ -161,7 +168,7 @@ html {
 }
 
 #events {
-    background-color: #e63c30;
+    background-color: #CD473E;
     color: #ebebeb;
 }
 
@@ -198,7 +205,7 @@ html {
 }
 
 #team {
-    background-color: #242424;
+    background-color: #393939;
 }
 
 .team-gallery {
@@ -216,7 +223,7 @@ html {
 }
 
 #footer {
-    background-color: #e63c30;
+    background-color: #CD473E;
     text-align: center;
     padding: 20px 0;
 }
@@ -474,7 +481,7 @@ html {
     }
     .sidenav ul li:hover {
         color: #ebebeb;
-        background-color: #242424;
+        background-color: #393939;
     }
     [class^="ev-header-"] {
         text-align: left;
