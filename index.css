@@ -152,7 +152,8 @@ html {
 }
 
 #about {
-    background-color: #393939;
+    color: #393939;
+    background-color: #ebebeb;
 }
 
 .sec-header {
@@ -168,7 +169,7 @@ html {
 }
 
 #events {
-    background-color: #CD473E;
+    background: linear-gradient(to bottom right, rgba(50, 50, 50, 0.75), rgba(230, 60, 48, 0.75) 80%);
     color: #ebebeb;
 }
 
@@ -205,7 +206,8 @@ html {
 }
 
 #team {
-    background-color: #393939;
+    background-color: #ebebeb;
+    color: #393939;
 }
 
 .team-gallery {
@@ -223,7 +225,8 @@ html {
 }
 
 #footer {
-    background-color: #CD473E;
+    background-color: #393939;
+    color: #ebebeb;
     text-align: center;
     padding: 20px 0;
 }
@@ -419,7 +422,7 @@ html {
     #nav ul li a {
         text-decoration: none;
         display: block;
-        color: black;
+        color: #393939;
         position: relative;
         font-size: 25px;
         transition: color 0.3s linear;
@@ -500,7 +503,7 @@ html {
         font-size: 30px;
         margin: 0 50px;
         padding-bottom: 20px;
-        border-bottom: solid 1px black;
+        border-bottom: solid 1px #ebebeb;
     }
     .team-gallery {
         padding-top: 50px;
