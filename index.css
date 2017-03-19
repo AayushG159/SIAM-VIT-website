@@ -49,7 +49,7 @@ html {
 #nav {
     padding: 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(57, 57, 57, 0.75);
     overflow: auto;
     position: fixed;
     z-index: 1;
@@ -72,7 +72,8 @@ html {
 #nav ul li a {
     text-decoration: none;
     display: block;
-    color: black;
+    color: #ebebeb;
+    font-size: 20px;
     position: relative;
     padding: 20px 30px;
     transition: background-color 0.3s linear;
@@ -90,7 +91,7 @@ html {
 .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: #ebebeb;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -403,15 +404,6 @@ html {
         width: 18%;
         height: auto;
     }
-    #nav {
-        padding: 0px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background-color: rgba(255, 255, 255, 0.75);
-        overflow: auto;
-        position: fixed;
-        font-size: 5vw;
-        font-weight: bold;
-    }
     #nav ul {
         text-align: center;
         float: right;
@@ -420,12 +412,8 @@ html {
         display: inline-block;
     }
     #nav ul li a {
-        text-decoration: none;
-        display: block;
-        color: #393939;
-        position: relative;
         font-size: 25px;
-        transition: color 0.3s linear;
+        margin-top: 20px;
     }
     #nav .nav-icon {
         display: none;
@@ -436,7 +424,7 @@ html {
         bottom: 5px;
         right: 0;
         width: 0%;
-        border-bottom: 3px solid #6A6868;
+        border-bottom: 3px solid #ebebeb;
         transition: 0.4s;
     }
     #nav ul li a:hover:after {
