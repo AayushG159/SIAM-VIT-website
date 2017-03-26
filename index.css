@@ -120,7 +120,7 @@ html {
     position: relative;
 }
 
-.hero:after{
+/*.hero:after{
     content: '';
     position: absolute;
     top: 0;
@@ -135,7 +135,7 @@ html {
 
 .hero:hover:after{
     opacity: 1;
-}
+}*/
 
 .hero-heading {
     text-align: center;
