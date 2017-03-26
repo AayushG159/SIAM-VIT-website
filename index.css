@@ -120,6 +120,7 @@ html {
     position: relative;
 }
 
+
 /*.hero:after{
     content: '';
     position: absolute;
@@ -459,10 +460,11 @@ html {
     }
     .logo-div {
         margin: 0;
+        padding-top: 75px;
         text-align: center;
     }
     .logo-div img {
-        height: 200px;
+        height: 225px;
         width: auto;
     }
     #events h2 {
