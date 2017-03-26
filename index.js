@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    nav();
     if (window.innerWidth >= 930) {
         $('#nav ul li:not(:first-child)').show();
     } else {
@@ -83,20 +82,4 @@ function events_sec() {
             $('.desk-ev-content-3').fadeIn();
         });
     }
-}
-
-function nav() {
-    var pos = $('#about').offset();
-    if ($(window).scrollTop() > pos.top) {
-        $('.fixed-nav').slideDown();
-    } else {
-        $('.fixed-nav').slideUp();
-    }
-    $(window).bind('scroll', function() {
-        if ($(window).scrollTop() > pos.top) {
-            $('.fixed-nav').slideDown();
-        } else {
-            $('.fixed-nav').slideUp();
-        }
-    });
 }

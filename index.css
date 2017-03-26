@@ -40,12 +40,6 @@ html {
     width: 100%;
 }
 
-.fixed-nav{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgba(57, 57, 57, 0.75);
-    position: fixed;
-}
-
 .nav-logo img {
     height: 70px;
     width: auto;
@@ -54,7 +48,10 @@ html {
 
 #nav {
     padding: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(57, 57, 57, 0.75);
     overflow: auto;
+    position: fixed;
     z-index: 10;
     font-weight: bold;
 }
