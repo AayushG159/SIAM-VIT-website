@@ -213,7 +213,7 @@ html {
 .team-gallery img {
     border-radius: 100%;
     height: 100px;
-    width: auto;
+    width: 100px;
 }
 
 .team-gallery .img-desc {
@@ -349,7 +349,7 @@ html {
     .team-gallery img {
         border-radius: 100%;
         height: 120px;
-        width: auto;
+        width: 120px;
     }
     .team-gallery .img-desc {
         padding-top: 10px;
@@ -506,7 +506,7 @@ html {
     .team-gallery img {
         border-radius: 100%;
         height: 200px;
-        width: auto;
+        width: 200px;
     }
     .team-gallery .img-desc {
         padding-top: 10px;
