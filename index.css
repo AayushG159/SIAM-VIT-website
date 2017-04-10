@@ -41,7 +41,7 @@ html {
 }
 
 .nav-logo img {
-    height: 70px;
+    height: 50px;
     width: auto;
     float: left;
 }
@@ -83,7 +83,7 @@ html {
     display: inline-block;
     cursor: pointer;
     padding-right: 30px;
-    margin-top: 12.5px;
+    margin-top: 5px;
 }
 
 .nav-icon .bar1,
@@ -153,8 +153,8 @@ html {
 }
 
 .sec-header {
-    font-size: 30px;
-    padding: 35px;
+    font-size: 35px;
+    padding: 20px 35px;
     text-align: center;
     font-family: 'Raleway-Bold';
 }
@@ -311,15 +311,14 @@ html {
         width: 100%;
     }
     .nav-logo img {
-        margin-left: 10px;
-        width: 200px;
+        width: 150px;
         height: auto;
     }
     .nav-icon {
         display: inline-block;
         cursor: pointer;
         padding-right: 30px;
-        margin-top: 22.5px;
+        margin-top: 12px;
     }
     .hero-heading h1 {
         font-size: 40px;
@@ -330,7 +329,8 @@ html {
         font-size: 20px;
     }
     .sec-header {
-        padding: 50px;
+        padding: 30px;
+        font-size: 40px;
     }
     .team-gallery {
         text-align: center;
@@ -396,7 +396,7 @@ html {
         width: 100%;
     }
     .nav-logo img {
-        width: 18%;
+        width: 160px;
         height: auto;
     }
     #nav ul {
@@ -407,8 +407,7 @@ html {
         display: inline-block;
     }
     #nav ul li a {
-        font-size: 25px;
-        margin-top: 20px;
+        font-size: 20px;
     }
     #nav .nav-icon {
         display: none;
@@ -434,8 +433,8 @@ html {
         font-size: 30px;
     }
     .sec-header {
-        padding-top: 70px;
-        font-size: 50px;
+        padding-top: 30px;
+        font-size: 60px;
     }
     #about .content {
         font-size: 20px;
