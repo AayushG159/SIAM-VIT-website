@@ -250,14 +250,16 @@ html {
 
 .fb {
     padding-top: 10px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .fb a {
     color: #ebebeb;
-    padding: 10px;
     transition: 0.5s ease-out;
-    background-color: #3b5998;
+}
+
+.fb a:hover{
+    color: #3b5998;
 }
 
 @media only screen and (max-width: 930px) {
