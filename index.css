@@ -442,13 +442,12 @@ html {
     }
     .logo-div {
         margin: 0;
-        padding-top: 75px;
         text-align: center;
-        transform: translate(-8%,10%);
     }
     .logo-div img {
         height: 250px;
         width: auto;
+        transform: translate(-8%,10%);
     }
     #events h2 {
         padding-bottom: 50px;
