@@ -444,9 +444,9 @@ html {
         text-align: center;
     }
     .logo-div img {
-        height: 250px;
-        width: auto;
-        transform: translate(-8%,10%);
+        width: 120%;
+        height: auto;
+        transform: translate(-8%,12.5%);
     }
     #events h2 {
         padding-bottom: 50px;
